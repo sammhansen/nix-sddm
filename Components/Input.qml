@@ -68,7 +68,7 @@ Column {
         id: usernameField
 
         height: root.font.pointSize * 4.5
-        width: parent.width / 2
+        width: parent.width / 4
         anchors.horizontalCenter: parent.horizontalCenter
 
         ComboBox {
@@ -266,7 +266,7 @@ Column {
         id: passwordField
 
         height: root.font.pointSize * 4.5
-        width: parent.width / 2
+        width: parent.width / 4
         anchors.horizontalCenter: parent.horizontalCenter
         
         Button {
